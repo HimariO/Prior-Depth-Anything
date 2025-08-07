@@ -12,7 +12,7 @@ setup(
         'Pillow',
         'torchvision>=0.17.2',
         'opencv-python',
-        'torch_cluster',
+        #'torch_cluster',
         'safetensors>=0.4.5',
         'matplotlib'
     ],
