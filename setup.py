@@ -5,15 +5,15 @@ setup(
     version="1.0",
     packages=find_packages(),
     install_requires=[
-        'torch=>2.2.2',
-        'numpy=>1.25.2',
-        'huggingface_hub=>0.26.5',
-        'einops=>0.8.1',
+        'torch>=2.2.2',
+        'numpy>=1.25.2',
+        'huggingface_hub>=0.26.5',
+        'einops>=0.8.1',
         'Pillow',
-        'torchvision=>0.17.2',
+        'torchvision>=0.17.2',
         'opencv-python',
         'torch_cluster',
-        'safetensors=>0.4.5',
+        'safetensors>=0.4.5',
         'matplotlib'
     ],
     entry_points={
