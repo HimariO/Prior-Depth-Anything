@@ -34,9 +34,9 @@ class SwiGLUFFN(nn.Module):
 
 
 try:
-    from xformers.ops import SwiGLU
+    # from xformers.ops import SwiGLU
 
-    XFORMERS_AVAILABLE = True
+    XFORMERS_AVAILABLE = False # True
 except ImportError:
     SwiGLU = SwiGLUFFN
     XFORMERS_AVAILABLE = False
